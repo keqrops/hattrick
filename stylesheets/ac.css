@@ -1,0 +1,8 @@
+th				{ background-color:	#DDD; }
+th:hover			{ background-color:	#BBB; }
+tr				{ text-align:		right; }
+td:first-child,th:first-child	{ text-align:		left; }
+tr:nth-child(even)		{ background-color:	#EEE; }
+tr:nth-child(even):hover	{ background-color:	#CCC; }
+tr:nth-child(odd)		{ background-color:	#FFF; }
+tr:nth-child(odd):hover		{ background-color:	#DDD; }

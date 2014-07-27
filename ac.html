@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Hattrick : Hattrick stuff" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/ac.css">
+
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.9.1/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="javascripts/acdata.js"></script>
+    <script type="text/javascript" src="javascripts/ac.js"></script>
+
+    <title>Hattrick &mdash; All-Canadian History</title>
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+      <header class="inner">
+        <h1 id="project_title"><a href="./index.html">Hattrick</a></h1>
+        <h2 id="project_tagline">Random items related to the online football manager game <a href="http://www.hattrick.org">Hattrick</a></h2>
+      </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>Historical All-Canadian standings</p>
+
+	<p>View results between season <select id="startseason"></select> and season <select id="endseason"></select><input type="button" onclick="y();" value="Go" /></p>
+
+        <table id="actable">
+          <thead>
+            <tr>
+              <th title="Team name">Team Name</th>
+              <th title="Number of seasons played in the All-Canadian">Seas</th>
+              <th title="Mean finishing position">AvPos</th>
+              <th title="Total points scored">Pts</th>
+              <th title="Total goals for">GF</th>
+              <th title="Total goals against">GA</th>
+              <th title="Total goal difference">GD</th>
+              <th title="Times finished 1st">1</th>
+              <th title="Times finished 2nd">2</th>
+              <th title="Times finished 3rd">3</th>
+              <th title="Times finished 4th">4</th>
+              <th title="Times finished 5th">5</th>
+              <th title="Times finished 6th">6</th>
+              <th title="Times finished 7th">7</th>
+              <th title="Times finished 8th">8</th>
+              <th title="Mean points per game">PG</th>
+              <th title="Mean points per season">PS</th>
+              <th title="Mean goals per game">GG</th>
+              <th title="Mean goals per season">GS</th>
+              <th title="Mean goals against per game">AG</th>
+              <th title="Mean goals against per season">AS</th>
+              <th title="Mean goal difference per season">DG</th>
+              <th title="Mean goal difference per season">DS</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Copyright &copy; 2012-14 by <a href="https://github.com/keqrops">keqrops</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+  </body>
+
+</html>
