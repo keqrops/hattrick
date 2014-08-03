@@ -1,4 +1,4 @@
-th				{ background-color:	#DDD; }
+th				{ background-color:	#DDD; text-align: center; }
 th:hover			{ background-color:	#BBB; }
 tr				{ text-align:		right; }
 td:first-child,th:first-child	{ text-align:		left; }
